@@ -1,0 +1,71 @@
+.joblist {
+    background-color: black;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Parent__div {
+    display: flex;
+    align-items: flex-start;
+    /* margin-top: 12rem; */
+    /* margin-bottom: auto; */
+    
+}
+
+.parent__div__text {
+    margin-right: 5rem;
+    margin-top: 12rem;
+}
+
+.parent__div__text h2,
+.parent__div__text p {
+    margin: 0;
+}
+
+.parent__div__image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mother__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+    padding-top: 1.5rem;
+    margin-top: auto;
+}
+
+.mother__container div {
+    background-color: #fff;
+    color: black;
+    padding: 30px 80px;
+    text-align: center;
+}
+
+.mother__container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+    padding-top: 1.5rem;
+    margin-top: auto;
+}
+
+.mother__container2 div {
+    background-color: #fff;
+    color: black;
+    padding: 30px 80px;
+    text-align: center;
+}
+.more{
+    padding: 1em 2rem;
+    /* position: absolute; */
+    margin-top: 2rem;
+    background-color: #ffff;
+    color: #000;
+}

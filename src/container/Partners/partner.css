@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+.flex img{
+width: 150px;
+margin: 2rem;
+margin-top: 2rem;
+}
+
+
+.background{
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+center{
+    color: white;
+    margin-top: 9rem;
+    font-size: 1.2rem;
+}
+
+.teambtn{
+    color: white;
+    background-color: #7909C3;
+    width: 15%;
+    margin: auto;
+    display: block;
+    padding: 1.2em 2rem;
+    margin-top: 4rem;
+}

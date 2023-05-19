@@ -1,0 +1,98 @@
+.chat {
+    display: flex;
+    height: 100vh;
+  }
+  
+  aside {
+    flex: 0 0 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .person-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .person-details h3 {
+    margin: 0;
+  }
+  
+  .person-details p {
+    margin: 0;
+    color: #888;
+  }
+  
+  section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .divider {
+    width: 2px;
+    background-color: #ccc;
+    margin: 20px;
+  }
+  
+  .received-message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 4rem;
+  }
+  
+  .received-message .person-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .received-message .message-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .received-message .message-content p {
+    margin: 0;
+    height: 3rem;
+    width: 200%;
+    background-color: #F6EDFD;
+    /* text-align: center; */
+    padding: 14px 16px;
+  }
+  
+  .received-message .message-date {
+    color: #888;
+    font-size: 12px;
+  }
+  .sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5rem;
+    margin-left: 3rem;
+  }
+  .Mr{
+    margin-left: 2rem;
+  }
+  /* Add more styling as needed */
+  

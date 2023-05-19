@@ -1,0 +1,74 @@
+.app__footer {
+    background-color: #7909C3;
+    padding: 2em 2rem;
+
+
+}
+
+.app__footer2 h3 {
+    padding: 2em 2rem;
+}
+
+
+.app {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+.app_footer2 ul {
+    margin: 1rem;
+}
+
+.app_footer2 h3 {
+    color: white;
+}
+
+.app_footer1 h3 {
+    color: white;
+}
+
+.app_footer2 ul li {
+    text-decoration: none;
+    list-style: none;
+    line-height: 2;
+    font-size: 16px;
+    color: white;
+}
+
+.app_footer2 ul button {
+    margin: 0rem;
+    background-color: white;
+    color: #7909C3;
+    outline: none;
+    border: none;
+    padding: 0.5em 1rem;
+    width: 100%;
+}
+
+.app_footer2 ul .btn1 {
+    margin: 0rem;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1em 1rem;
+    width: 70%;
+
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    margin-top: 7rem;
+}
+
+.copyright {
+    color: white;
+    margin-top: 1rem;
+    margin-left: 7rem;
+}

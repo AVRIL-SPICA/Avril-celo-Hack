@@ -1,0 +1,73 @@
+.p__back {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 2em 5%;
+    gap: 2rem;
+
+}
+
+.sec__par {
+    background-color: #fff;
+    height: 100vh;
+    width: 40%;
+}
+
+.profile {
+    max-width: 600px;
+    display: block;
+    margin-top: 5rem;
+    padding-left: 8rem;
+    /* background-color: black; */
+}
+
+.profile input[type="text"] {
+    padding: .8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 25rem;
+    text-align: left;
+    /* margin-bottom: .6rem; */
+    margin-top: 0.5rem;
+    color: #ccc;
+}
+
+.profile form label {
+    color: #ccc;
+}
+
+.profile form b {
+    color: #7909C3;
+}
+
+.sec__par button {
+
+    background-color: #7909C3;
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 30rem;
+    margin-left: 12rem;
+    /* float: left; */
+}
+
+.profile form button span {
+    display: block;
+    margin: auto;
+}
+
+.profile .circle {
+    margin-left: 10rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    height: 10%;
+    width: 10%;
+}
+

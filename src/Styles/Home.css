@@ -1,0 +1,100 @@
+ .hero {
+     margin-top: -4.5rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #000;
+     height: 100vh;
+ }
+
+ .hero h1 {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 11rem;
+     color: #fff;
+     margin-top: -3rem;
+     cursor: none;
+ }
+
+ .hero__avril {
+     width: 50%;
+     margin-left: 10rem;
+     position: absolute;
+     /* margin-top: rem; */
+ }
+ .hero__circ{
+    margin-top: 8rem;
+    position: relative;
+    margin-left: 40rem;
+ }
+ .hero__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -6rem;
+ }
+
+ .hero__wrapper__p{
+  color: #fff;
+  max-width: 400px;
+ }
+
+ .hero__wrapper__button{
+    padding: 15px 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #7909C3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+ }
+ .Aboutus {
+    height: 100vh;
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background: url(..//assets/bhh.png) rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    background-blend-mode: darken;
+    /* margin-top: 0.1rem; */
+    
+ }
+ .Aboutus p{
+    margin-top: 10rem;
+    color: #fff;
+    max-width: 600px;
+    margin-left: 20rem;
+    font-size: 1.3rem;
+    margin-top: 10rem;
+    position: absolute;
+ }
+ .btn__grid{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* padding: 2rem; */
+    
+ }
+ .btn__grid button{
+    margin: 2rem;
+    padding: 15px 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #7909C3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 20rem;
+    /* position: absolute; */
+ }
+ .btn__grid .btn2{
+    background-color: #fff;
+    color: #000;
+ }
+ 
